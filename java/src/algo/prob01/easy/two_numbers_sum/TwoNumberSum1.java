@@ -1,8 +1,8 @@
 package algo.prob01.easy.two_numbers_sum;
 
-import java.util.Arrays;
+import common.Printer;
+
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -12,13 +12,7 @@ import java.util.Map;
 public class TwoNumberSum1 {
     public static void main(String[] args) {
         int[] result = solution(new int[]{ 1, 2, 3, 4, -4, 9}, 10);
-        print(result);
-    }
-
-    private static void print(int[] result) {
-        for (int item : result) {
-            System.out.print(item + ", ");
-        }
+        Printer.printIntArr(result);
     }
 
     private static int[] solution(int[] array, int targetSum) {
