@@ -27,9 +27,9 @@ def solution(root):
 def sum(node, depth):
   if node is None:
     return 0
-  sumLeft = sum(node.left, depth + 1)
-  sumRight = sum(node.right, depth + 1)
-  return depth + sumLeft + sumRight
+  sum_left = sum(node.left, depth + 1)
+  sum_right = sum(node.right, depth + 1)
+  return depth + sum_left + sum_right
 
 tree = init_tree([1,2,3,4,5,6,7,8,9])
 print(solution(tree))
