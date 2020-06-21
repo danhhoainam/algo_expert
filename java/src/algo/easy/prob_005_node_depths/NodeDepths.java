@@ -1,4 +1,4 @@
-package algo.prob01.easy.node_depths;
+package algo.easy.prob_005_node_depths;
 
 import common.BinaryTree;
 import common.TreeUtil;

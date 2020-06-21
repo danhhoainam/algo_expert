@@ -1,4 +1,4 @@
-package algo.prob01.easy.valid_sequence;
+package algo.easy.prob_002_valid_sequence;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package algo.prob01.easy.branch_sums;
+package algo.easy.prob_004_branch_sums;
 
 import common.BinaryTree;
 

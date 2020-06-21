@@ -1,9 +1,6 @@
-package algo.prob01.easy.two_numbers_sum;
+package algo.easy.prob_001_two_numbers_sum;
 
 import common.Printer;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * O(1) space
