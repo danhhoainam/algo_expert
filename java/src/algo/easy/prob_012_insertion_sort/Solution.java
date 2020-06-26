@@ -1,8 +1,10 @@
-package algo.easy.prob_12_insertion_sort;
+package algo.easy.prob_012_insertion_sort;
 
 import common.Printer;
 
 /**
+ * Idea: loop through each elements in array, compare to previous values
+ *       if current element is smaller than previous, shift right
  * Time:
  *   best: O(n) the array is already sorted
  *   average: O(n^2) the first loop from begin to end, second loop back to insert
