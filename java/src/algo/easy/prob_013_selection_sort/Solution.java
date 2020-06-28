@@ -6,7 +6,7 @@ import common.Printer;
  * Idea: iterate through each elements, find min for the rest of the list
  *       swap min element with the current element
  *
- * O(n^2) time; O(1) space
+ * O(n^2) time; O(1) spacef
  */
 public class Solution {
     public static void main(String[] args) {
