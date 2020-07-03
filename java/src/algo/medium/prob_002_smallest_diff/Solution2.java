@@ -4,6 +4,11 @@ import common.Printer;
 
 import java.util.Arrays;
 
+/**
+ * O(NlogN + MlogM) time: sort N + sort M + loops(M + N)
+ *                        -> O(NlogN) + O(MlogM) + M + N
+ * O(1) space: we dont use extra memory
+ */
 public class Solution2 {
 
     public static void main(String[] args) {
