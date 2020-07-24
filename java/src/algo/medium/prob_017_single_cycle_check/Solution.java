@@ -1,4 +1,4 @@
-package algo.medium.single_cycle_check;
+package algo.medium.prob_017_single_cycle_check;
 
 /**
  * Ideas: for a single cycle, if we meet the first index then it's false
