@@ -30,13 +30,13 @@ public class BranchSums {
             return;
         }
 
-        Integer newRuningSum = runningSum + node.value;
+        Integer newRunningSum = runningSum + node.value;
         if (node.left == null && node.right == null) {
-            result.add(newRuningSum);
+            result.add(newRunningSum);
             return;
         }
 
-        sum(node.left, result, newRuningSum);
-        sum(node.right, result, newRuningSum);
+        sum(node.left, result, newRunningSum);
+        sum(node.right, result, newRunningSum);
     }
 }
